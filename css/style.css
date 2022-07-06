@@ -1,0 +1,20 @@
+/* Font 
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+ @import url(../css/partial/variable.css);
+
+ @import url(../css/partial/common.css);
+
+
+ @import url(../css/partial/banner.css);
+
+ @import url(./partial/services.css);
+
+ @import url(./partial/distination.css);
+
+ @import url(./partial/blog.css);
+
+ @import url(./partial/review.css);
+
+ @import url(./partial/footer.css);

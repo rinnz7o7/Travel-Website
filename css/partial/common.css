@@ -1,0 +1,38 @@
+body
+{
+     font-family: 'Source Sans Pro';
+     font-size: var(--body-font-size) ;
+     color: #fff;
+   
+     
+}
+.title
+{
+     font-family: 'Montserrat';
+     font-size: var(--title-font-size);
+     color: #fff;
+     font-weight: 800;
+}
+.text
+{
+     font-size: 20px;
+     color: #fff;
+     font-weight: 500;
+
+}
+.py-80
+{
+     padding: 80px 0;
+}
+.mini-title
+{
+     font-size:40px ;
+     font-weight: 800;
+     color: #000;
+}
+.mini-text
+{
+     
+     color: #000;
+}
+

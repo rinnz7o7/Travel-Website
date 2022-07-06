@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Website</title>
+    <link
+      rel="shortcut icon"
+      href="./img/Group 39708.png"
+      type="image/x-icon"
+    />
+
+    <!-- Bootstrap Link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- fontawesome link  -->
+    <link
+      rel="stylesheet"
+      href="./library/fontawesome-free-6.1.0-web/fontawesome-free-6.1.0-web/css/all.min.css"
+    />
+
+    <!-- Custom Css  -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Navigation  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./img/Group 39708.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse text-center justify-content-lg-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#banner"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#destination">Places</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#careers">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <div class="btn btn-primary d-none d-lg-block rounded-pill">
+          Connect
+        </div>
+      </div>
+    </nav>
+
+    <!-- Banner  -->
+    <section
+      class="container-fluid banner py-2 d-flex justify-content-center align-items-center text-center"
+      id="banner"
+    >
+      <div
+        class="align-items-center justify-content-lg-center d-flex flex-column"
+      >
+        <div class="header">
+          <h1 class="title">Travel To explore</h1>
+          <span class="text"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+            Dolor corporis sed, aperiam labore suscipit debitis at aliquam
+            <br />
+            quaerat fugiat iste!</span
+          >
+        </div>
+        <div class="footer d-block d-md-flex pt-3">
+          <div
+            class="box align-items-center rounded-3 p-2 d-block d-md-flex w-100"
+          >
+            <div class="d-flex flex-column m-md-3 mb-3">
+              <span class="font-col">Where you want to go</span>
+              <span class="mini-font">
+                <i class="fa-solid fa-magnifying-glass"></i> Search your
+                location</span
+              >
+            </div>
+            <div class="d-flex flex-column m-md-3 mb-3">
+              <span class="font-col">Check In</span>
+              <!-- <span class=" mini-font"> Add Date</span> -->
+              <input type="date" class="mini-font" placeholder="Add Date" />
+            </div>
+            <div class="d-flex flex-column m-md-3 mb-3">
+              <span class="font-col">Check Out</span>
+              <!-- <span class=" mini-font"> Add Date</span> -->
+              <input type="date" class="mini-font" placeholder="Add Date" />
+            </div>
+            <div>
+              <div class="btn btn-primary rounded-3">Explore Now</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services  -->
+    <section class="py-80 font-col" id="services">
+      <div
+        class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-5 container-fluid m-0"
+      >
+        <div class="col">
+          <div
+            class="card p-2 shadow-lg border-0 pb-sm-3 text-center text-md-start"
+          >
+            <div
+              class="card-img bg-brand-color icon-box d-flex justify-content-center align-items-center m-auto m-md-0"
+            >
+              <img
+                src="./img/Get Best Prices.png"
+                alt="Services"
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="card-body">
+              <div class="card-title">Get Best Prices</div>
+              <span class="card-text"
+                >Pay through our application and save thousands and get amazing
+                rewards now</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div
+            class="card p-2 shadow-lg border-0 pb-sm-3 text-center text-md-start"
+          >
+            <div
+              class="card-img bg-brand-color icon-box d-flex justify-content-center align-items-center m-auto m-md-0"
+            >
+              <img
+                src="./img/Covid Safe.png"
+                alt="Covid Safe"
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="card-body">
+              <div class="card-title">Covid Safe</div>
+              <span class="card-text"
+                >We have all the curated hotels that have all the precaution for
+                a corvid safe environment</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div
+            class="card p-2 shadow-lg border-0 pb-sm-3 text-center text-md-start"
+          >
+            <div
+              class="card-img bg-brand-color icon-box d-flex justify-content-center align-items-center m-auto m-md-0"
+            >
+              <img
+                src="./img/Flexible Payment.png"
+                alt="Services"
+                class="img-fluid"
+              />
+            </div>
+
+            <div class="card-body">
+              <div class="card-title">Flexible Payment</div>
+              <span class="card-text"
+                >Enjoy the flexible payment through our app and get rewards on
+                every payment
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div
+            class="card p-2 shadow-lg border-0 pb-sm-3 text-center text-md-start"
+          >
+            <div
+              class="card-img bg-brand-color icon-box d-flex justify-content-center align-items-center m-auto m-md-0"
+            >
+              <img src="./img/Nearby.png" alt="Services" class="img-fluid" />
+            </div>
+
+            <div class="card-body">
+              <div class="card-title">Find The Best Near You</div>
+              <span class="card-text"
+                >Find the best hotels and places to visit near you in a single
+                click and feel the nature</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Destination  -->
+
+    <section class="py-80 bg-color" id="destination">
+      <h1 class="mini-title text-center mb-3">Recommended Distination</h1>
+      <div class="pt-4">
+        <div class="d-flex justify-content-between container mini-text">
+          <h3
+            class="btn-weekend d-flex justify-content-center align-items-center m-auto m-lg-0"
+          >
+            The Weekend Break
+          </h3>
+          <h3 class="d-none d-lg-block">The Package Holiday</h3>
+          <h3 class="d-none d-lg-block">The Group Tour</h3>
+          <h3 class="d-none d-lg-block">Long Term Slow Travel</h3>
+        </div>
+      </div>
+
+      <div
+        class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5 container-fluid p-0 m-0"
+      >
+        <div class="col">
+          <div class="card border-0 shadow-none">
+            <div class="card-img">
+              <img
+                src="./img/Singapore.png"
+                alt="Singapore"
+                class="img-fluid w-100"
+              />
+            </div>
+            <div class="card-body">
+              <h1 class="country-name">Singapore</h1>
+              <span class="card-text mini-text"
+                >Singapore, officially the Republic of Singapore, is a sovereign
+                island city-state in maritime Southeast Asia.</span
+              >
+
+              <div class="mini-font d-flex justify-content-between my-3">
+                <div>
+                  <div>
+                    <img src="./img/Group 17.png" alt="" />
+                    <img src="./img/Group 18.png" alt="" />
+                    <img src="./img/Group 19.png" alt="" />
+                  </div>
+                  <span class="mini-font">1000 Kms</span>
+                </div>
+
+                <div class="">
+                  <h4 class="text-dark m-0">₹ 38,800</h4>
+                  <span class="mini-text">Approx 2 nights trip</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card border-0 shadow-none h-100">
+            <div class="card-img card-img-size">
+              <img src="./img/Thailand.png" alt="Thailand" class="img-fluid" />
+            </div>
+            <div class="card-body">
+              <h1 class="country-name">Thailand</h1>
+              <span class="card-text mini-text"
+                >Thailand is a Southeast Asian country. It's known for tropical
+                beaches, opulent royal palaces and everyone love to see it</span
+              >
+
+              <div class="mini-font d-flex justify-content-between my-3">
+                <div>
+                  <div>
+                    <img src="./img/Group 17.png" alt="" />
+                    <img src="./img/Group 18.png" alt="" />
+                    <img src="./img/Group 19.png" alt="" />
+                  </div>
+                  <span class="mini-font">1000 Kms</span>
+                </div>
+
+                <div class="">
+                  <h4 class="text-dark m-0">₹ 38,800</h4>
+                  <span class="mini-text">Approx 2 nights trip</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card border-0 shadow-none">
+            <div class="card-img card-img-size">
+              <img src="./img/Paris.png" alt="Paris" class="img-fluid" />
+            </div>
+            <div class="card-body">
+              <h1 class="country-name">Paris</h1>
+              <span class="card-text mini-text"
+                >Paris, France's capital, is a major European city and a global
+                center for art, fashion, gastronomy and culture.</span
+              >
+
+              <div class="mini-font d-flex justify-content-between my-3">
+                <div>
+                  <div>
+                    <img src="./img/Group 17.png" alt="" />
+                    <img src="./img/Group 18.png" alt="" />
+                    <img src="./img/Group 19.png" alt="" />
+                  </div>
+                  <span class="mini-font">1000 Kms</span>
+                </div>
+
+                <div class="">
+                  <h4 class="text-dark m-0">₹ 38,800</h4>
+                  <span class="mini-text">Approx 1 night trip</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card border-0 shadow-none">
+            <div class="card-img card-img-size">
+              <img
+                src="./img/New Zealand.png"
+                alt="New Zealand"
+                class="img-fluid"
+              />
+            </div>
+            <div class="card-body">
+              <h1 class="country-name">New Zealand</h1>
+              <span class="card-text mini-text"
+                >New Zealand is an island country in the southwestern Pacific
+                Ocean. It consists of two main landmasses.</span
+              >
+
+              <div class="mini-font d-flex justify-content-between my-3">
+                <div>
+                  <div>
+                    <img src="./img/Group 17.png" alt="" />
+                    <img src="./img/Group 18.png" alt="" />
+                    <img src="./img/Group 19.png" alt="" />
+                  </div>
+                  <span class="mini-font">1000 Kms</span>
+                </div>
+
+                <div class="">
+                  <h4 class="text-dark m-0">₹ 38,800</h4>
+                  <span class="mini-text">Approx 1 night trip</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card border-0 shadow-none">
+            <div class="card-img card-img-size">
+              <img
+                src="./img/Bora Bora.png"
+                alt="Bora Bora"
+                class="img-fluid"
+              />
+            </div>
+            <div class="card-body">
+              <h1 class="country-name">Bora Bora</h1>
+              <span class="card-text mini-text"
+                >Bora Bora is a small South Pacific island northwest of Tahiti
+                in French Polynesia. Surrounded by sand</span
+              >
+
+              <div class="mini-font d-flex justify-content-between my-3">
+                <div>
+                  <div>
+                    <img src="./img/Group 17.png" alt="" />
+                    <img src="./img/Group 18.png" alt="" />
+                    <img src="./img/Group 19.png" alt="" />
+                  </div>
+                  <span class="mini-font">1000 Kms</span>
+                </div>
+
+                <div class="">
+                  <h4 class="text-dark m-0">₹ 38,800</h4>
+                  <span class="mini-text">Approx 2 night 2 day trip</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card border-0 shadow-none">
+            <div class="card-img card-img-size">
+              <img src="./img/London.png" alt="London " class="img-fluid" />
+            </div>
+            <div class="card-body">
+              <h1 class="country-name">London</h1>
+              <span class="card-text mini-text"
+                >London, the capital of England and the United Kingdom, is a
+                21st-century city with history stretching</span
+              >
+
+              <div class="mini-font d-flex justify-content-between my-3">
+                <div>
+                  <div>
+                    <img src="./img/Group 17.png" alt="" />
+                    <img src="./img/Group 18.png" alt="" />
+                    <img src="./img/Group 19.png" alt="" />
+                  </div>
+                  <span class="mini-font">1000 Kms</span>
+                </div>
+
+                <div class="">
+                  <h4 class="text-dark m-0">₹ 38,800</h4>
+                  <span class="mini-text">Approx 3 night 2 day trip</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blogs -->
+
+    <section class="py-80" id="blog">
+      <h1 class="mini-title text-center mb-5">Blogs</h1>
+      <div class="row row-cols-md-2 row-cols-1 container-fluid g-2">
+        <div class="col">
+          <div class="card text-white border-0 h-100">
+            <img
+              src="./img/Group 39709.png"
+              class="img-fluid card-img"
+              alt="..."
+              style="height: 100%"
+            />
+            <div
+              class="card-img-overlay d-flex justify-content-center align-items-center"
+            >
+              <p class="card-text h2 fw-bolder text-center">
+                The Ultimate Guide to Climbing Mount Kilimanjaro
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="row">
+            <div class="col-12">
+              <div class="card text-white border-0">
+                <img src="./img/Group 39710.png" class="card-img" alt="..." />
+                <div
+                  class="card-img-overlay d-flex justify-content-center align-items-center"
+                >
+                  <p class="card-text h2 fw-bolder text-center">
+                    The Ultimate Guide to Climbing Mount Kilimanjaro
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="card text-white border-0">
+                <img src="./img/Group 39711.png" class="card-img" alt="..." />
+                <div
+                  class="card-img-overlay d-flex justify-content-center align-items-center"
+                >
+                  <p class="card-text h2 fw-bolder text-center">
+                    The Ultimate Guide to Climbing Mount Kilimanjaro
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Happy Costumers -->
+
+    <section class="py-80" id="careers">
+      <h1 class="mini-title text-center mb-5">Happy Customers</h1>
+
+      <div
+        class="row row-cols-1 row-cols-md-2 font-col g-5 container-fluid m-0 p-0"
+      >
+        <div class="col">
+          <div
+            class="card border-0"
+            style="
+              box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+                rgba(0, 0, 0, 0.12) 0px -12px 30px,
+                rgba(0, 0, 0, 0.12) 0px 4px 6px,
+                rgba(0, 0, 0, 0.17) 0px 12px 13px,
+                rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            "
+          >
+            <div class="card-body">
+              <span class="card-text">
+                <i class="fa-solid fa-quote-left"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                asperiores laborum laboriosam, perspiciatis corporis odit
+                expedita repudiandae blanditiis exercitationem cupiditate quis,
+                accusantium consequatur nam obcaecati, dignissimos excepturi
+                veniam quos sequi?
+                <i class="fa-solid fa-quote-right"></i>
+              </span>
+
+              <div
+                class="mt-3 d-flex justify-content-between align-items-center"
+                style="width: 250px"
+              >
+                <div class="reviewer"></div>
+                <div>
+                  <p class="mb-0">Shalini Singh</p>
+                  <p class="mini-font">Project Manger flyhigh</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div
+            class="card border-0"
+            style="
+              box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+                rgba(0, 0, 0, 0.12) 0px -12px 30px,
+                rgba(0, 0, 0, 0.12) 0px 4px 6px,
+                rgba(0, 0, 0, 0.17) 0px 12px 13px,
+                rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            "
+          >
+            <div class="card-body">
+              <span class="card-text">
+                <i class="fa-solid fa-quote-left"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                asperiores laborum laboriosam, perspiciatis corporis odit
+                expedita repudiandae blanditiis exercitationem cupiditate quis,
+                accusantium consequatur nam obcaecati, dignissimos excepturi
+                veniam quos sequi?
+                <i class="fa-solid fa-quote-right"></i>
+              </span>
+
+              <div
+                class="mt-3 d-flex justify-content-between align-items-center"
+                style="width: 250px"
+              >
+                <div class="reviewer"></div>
+                <div>
+                  <p class="mb-0">Shalini Singh</p>
+                  <p class="mini-font">Project Manger flyhigh</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer  -->
+    <section
+      class="footer-footer container-fluid p-4 d-flex justify-content-sm-center"
+    >
+      <div
+        class="row row-cols-4 justify-content-between align-items-center container m-0 footer-text"
+      >
+        <div style="font-size: 0.9rem">
+          Copyright © 2020 Travelo. All rights reserved
+        </div>
+        <div class="">
+          <ul
+            class="list-unstyled d-block d-lg-flex justify-content-md-between mb-0"
+          >
+            <li>
+              <a href="" class="text-decoration-none footer-text">Home</a>
+            </li>
+            <li>
+              <a href="" class="text-decoration-none footer-text">About</a>
+            </li>
+            <li>
+              <a href="" class="text-decoration-none footer-text">Places</a>
+            </li>
+            <li>
+              <a href="" class="text-decoration-none footer-text">Careers</a>
+            </li>
+            <li>
+              <a href="" class="text-decoration-none footer-text"> Blogs</a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="d-block d-md-flexx justify-content-center justify-content-lg-end flex-nowrap"
+        >
+          <i class="fa-brands fa-facebook me-4"></i>
+          <i class="fa-brands fa-instagram me-4"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

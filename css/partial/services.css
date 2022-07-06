@@ -1,0 +1,12 @@
+.service-box 
+{
+     border: 1px solid #fff;
+     
+}
+.icon-box 
+{
+     width: 90px;
+     height: 90px;
+     border-radius: 10px;
+     background-color: #EBF0FE;
+}
